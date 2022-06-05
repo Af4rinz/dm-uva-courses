@@ -1,0 +1,45 @@
+support,itemsets
+0.06802721088435375,frozenset({'academic'})
+0.05442176870748299,frozenset({'assessment'})
+0.09523809523809523,frozenset({'examination'})
+0.10884353741496598,frozenset({'internship'})
+0.17687074829931973,frozenset({'lecture'})
+0.08163265306122448,frozenset({'practice'})
+0.06802721088435375,frozenset({'programming'})
+0.061224489795918366,frozenset({'psychological'})
+0.20408163265306123,frozenset({'psychology'})
+0.1836734693877551,frozenset({'research'})
+0.2653061224489796,frozenset({'student'})
+0.8231292517006803,frozenset({'study'})
+0.08843537414965986,frozenset({'supervision'})
+0.05442176870748299,frozenset({'supervisor'})
+0.08843537414965986,frozenset({'teaching'})
+0.1360544217687075,frozenset({'thesis'})
+0.05442176870748299,"frozenset({'academic', 'student'})"
+0.05442176870748299,"frozenset({'study', 'academic'})"
+0.05442176870748299,"frozenset({'study', 'assessment'})"
+0.08163265306122448,"frozenset({'study', 'examination'})"
+0.061224489795918366,"frozenset({'study', 'internship'})"
+0.08163265306122448,"frozenset({'supervision', 'internship'})"
+0.05442176870748299,"frozenset({'internship', 'supervisor'})"
+0.05442176870748299,"frozenset({'student', 'lecture'})"
+0.14965986394557823,"frozenset({'study', 'lecture'})"
+0.07482993197278912,"frozenset({'study', 'practice'})"
+0.05442176870748299,"frozenset({'programming', 'study'})"
+0.1836734693877551,"frozenset({'study', 'psychology'})"
+0.09523809523809523,"frozenset({'research', 'student'})"
+0.17687074829931973,"frozenset({'research', 'study'})"
+0.10204081632653061,"frozenset({'research', 'thesis'})"
+0.23809523809523808,"frozenset({'study', 'student'})"
+0.11564625850340136,"frozenset({'thesis', 'student'})"
+0.06802721088435375,"frozenset({'study', 'supervision'})"
+0.08163265306122448,"frozenset({'teaching', 'study'})"
+0.1360544217687075,"frozenset({'thesis', 'study'})"
+0.05442176870748299,"frozenset({'supervision', 'supervisor'})"
+0.061224489795918366,"frozenset({'study', 'internship', 'supervision'})"
+0.05442176870748299,"frozenset({'supervision', 'internship', 'supervisor'})"
+0.08843537414965986,"frozenset({'research', 'student', 'study'})"
+0.08843537414965986,"frozenset({'research', 'student', 'thesis'})"
+0.10204081632653061,"frozenset({'research', 'study', 'thesis'})"
+0.11564625850340136,"frozenset({'thesis', 'student', 'study'})"
+0.08843537414965986,"frozenset({'research', 'student', 'study', 'thesis'})"
