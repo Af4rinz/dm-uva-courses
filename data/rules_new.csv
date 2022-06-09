@@ -1,0 +1,1092 @@
+Department,Rules
+AUC,"Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction]
+Index: []"
+Amsterdam College of Law,"             antecedents                                        consequents  \
+0             (advocate)                                            (court)   
+1                (court)                                         (advocate)   
+2             (advocate)                                         (pleading)   
+3             (pleading)                                         (advocate)   
+4             (advocate)                                         (practice)   
+...                  ...                                                ...   
+1290  (honoursstudenten)  (studentrechters, masterclasses, studenten, ma...   
+1291     (masterclasses)  (honoursstudenten, studentrechters, masterclas...   
+1292       (masterclass)  (honoursstudenten, studentrechters, masterclas...   
+1293   (studentrechters)  (honoursstudenten, studenten, masterclasses, m...   
+1294         (studenten)  (honoursstudenten, studentrechters, masterclas...   
+
+      antecedent support  consequent support  support  confidence  lift  \
+0                    0.1                 0.1      0.1         1.0  10.0   
+1                    0.1                 0.1      0.1         1.0  10.0   
+2                    0.1                 0.1      0.1         1.0  10.0   
+3                    0.1                 0.1      0.1         1.0  10.0   
+4                    0.1                 0.1      0.1         1.0  10.0   
+...                  ...                 ...      ...         ...   ...   
+1290                 0.1                 0.1      0.1         1.0  10.0   
+1291                 0.1                 0.1      0.1         1.0  10.0   
+1292                 0.1                 0.1      0.1         1.0  10.0   
+1293                 0.1                 0.1      0.1         1.0  10.0   
+1294                 0.1                 0.1      0.1         1.0  10.0   
+
+      leverage  conviction  
+0         0.09         inf  
+1         0.09         inf  
+2         0.09         inf  
+3         0.09         inf  
+4         0.09         inf  
+...        ...         ...  
+1290      0.09         inf  
+1291      0.09         inf  
+1292      0.09         inf  
+1293      0.09         inf  
+1294      0.09         inf  
+
+[1295 rows x 9 columns]"
+Amsterdam Graduate Law School,"                 antecedents                                 consequents  \
+0             (mastertracks)                                   (lecture)   
+1                 (semester)                                   (lecture)   
+2                   (thesis)                                   (lecture)   
+3                 (semester)                              (mastertracks)   
+4             (mastertracks)                                  (semester)   
+..                       ...                                         ...   
+145  (student, mastertracks)                 (lecture, thesis, semester)   
+146        (student, thesis)           (lecture, semester, mastertracks)   
+147               (semester)    (lecture, student, thesis, mastertracks)   
+148           (mastertracks)        (lecture, student, thesis, semester)   
+149                 (thesis)  (lecture, student, semester, mastertracks)   
+
+     antecedent support  consequent support   support  confidence       lift  \
+0              0.066038            0.160377  0.066038       1.000   6.235294   
+1              0.075472            0.160377  0.075472       1.000   6.235294   
+2              0.094340            0.160377  0.084906       0.900   5.611765   
+3              0.075472            0.066038  0.066038       0.875  13.250000   
+4              0.066038            0.075472  0.066038       1.000  13.250000   
+..                  ...                 ...       ...         ...        ...   
+145            0.066038            0.066038  0.066038       1.000  15.142857   
+146            0.066038            0.066038  0.066038       1.000  15.142857   
+147            0.075472            0.066038  0.066038       0.875  13.250000   
+148            0.066038            0.066038  0.066038       1.000  15.142857   
+149            0.094340            0.066038  0.066038       0.700  10.600000   
+
+     leverage  conviction  
+0    0.055447         inf  
+1    0.063368         inf  
+2    0.069776    8.396226  
+3    0.061054    7.471698  
+4    0.061054         inf  
+..        ...         ...  
+145  0.061677         inf  
+146  0.061677         inf  
+147  0.061054    7.471698  
+148  0.061677         inf  
+149  0.059808    3.113208  
+
+[150 rows x 9 columns]"
+College of Child Development and Education,"                antecedents             consequents  antecedent support  \
+0                  (learns)            (assessment)            0.090909   
+1              (discipline)                 (study)            0.136364   
+2              (discipline)              (violence)            0.136364   
+3                (educated)             (education)            0.090909   
+4                (lecturer)           (educational)            0.090909   
+5                  (learns)              (teaching)            0.090909   
+6                (lecturer)                 (study)            0.090909   
+7             (participate)                 (study)            0.090909   
+8             (participate)              (violence)            0.090909   
+9               (sociology)                 (study)            0.090909   
+10              (sociology)              (violence)            0.090909   
+11               (violence)                 (study)            0.227273   
+12     (assessment, learns)              (teaching)            0.090909   
+13   (assessment, teaching)                (learns)            0.090909   
+14       (learns, teaching)            (assessment)            0.090909   
+15                 (learns)  (assessment, teaching)            0.090909   
+16   (violence, discipline)                 (study)            0.136364   
+17      (discipline, study)              (violence)            0.136364   
+18             (discipline)       (violence, study)            0.136364   
+19    (education, teaching)               (student)            0.090909   
+20  (educational, lecturer)                 (study)            0.090909   
+21        (study, lecturer)           (educational)            0.090909   
+22               (lecturer)    (educational, study)            0.090909   
+23  (violence, participate)                 (study)            0.090909   
+24     (study, participate)              (violence)            0.090909   
+25            (participate)       (violence, study)            0.090909   
+26    (sociology, violence)                 (study)            0.090909   
+27       (sociology, study)              (violence)            0.090909   
+28              (sociology)       (violence, study)            0.090909   
+
+    consequent support   support  confidence       lift  leverage  conviction  
+0             0.136364  0.090909         1.0   7.333333  0.078512         inf  
+1             0.500000  0.136364         1.0   2.000000  0.068182         inf  
+2             0.227273  0.136364         1.0   4.400000  0.105372         inf  
+3             0.227273  0.090909         1.0   4.400000  0.070248         inf  
+4             0.272727  0.090909         1.0   3.666667  0.066116         inf  
+5             0.227273  0.090909         1.0   4.400000  0.070248         inf  
+6             0.500000  0.090909         1.0   2.000000  0.045455         inf  
+7             0.500000  0.090909         1.0   2.000000  0.045455         inf  
+8             0.227273  0.090909         1.0   4.400000  0.070248         inf  
+9             0.500000  0.090909         1.0   2.000000  0.045455         inf  
+10            0.227273  0.090909         1.0   4.400000  0.070248         inf  
+11            0.500000  0.227273         1.0   2.000000  0.113636         inf  
+12            0.227273  0.090909         1.0   4.400000  0.070248         inf  
+13            0.090909  0.090909         1.0  11.000000  0.082645         inf  
+14            0.136364  0.090909         1.0   7.333333  0.078512         inf  
+15            0.090909  0.090909         1.0  11.000000  0.082645         inf  
+16            0.500000  0.136364         1.0   2.000000  0.068182         inf  
+17            0.227273  0.136364         1.0   4.400000  0.105372         inf  
+18            0.227273  0.136364         1.0   4.400000  0.105372         inf  
+19            0.227273  0.090909         1.0   4.400000  0.070248         inf  
+20            0.500000  0.090909         1.0   2.000000  0.045455         inf  
+21            0.272727  0.090909         1.0   3.666667  0.066116         inf  
+22            0.136364  0.090909         1.0   7.333333  0.078512         inf  
+23            0.500000  0.090909         1.0   2.000000  0.045455         inf  
+24            0.227273  0.090909         1.0   4.400000  0.070248         inf  
+25            0.227273  0.090909         1.0   4.400000  0.070248         inf  
+26            0.500000  0.090909         1.0   2.000000  0.045455         inf  
+27            0.227273  0.090909         1.0   4.400000  0.070248         inf  
+28            0.227273  0.090909         1.0   4.400000  0.070248         inf  "
+College of Communication,"           antecedents   consequents  antecedent support  consequent support  \
+0          (political)  (journalism)            0.063830            0.063830   
+1         (journalism)   (political)            0.063830            0.063830   
+2           (lecturer)       (study)            0.106383            0.468085   
+3           (teaching)       (study)            0.191489            0.468085   
+4  (lecture, teaching)       (study)            0.085106            0.468085   
+
+    support  confidence       lift  leverage  conviction  
+0  0.063830    1.000000  15.666667  0.059756         inf  
+1  0.063830    1.000000  15.666667  0.059756         inf  
+2  0.085106    0.800000   1.709091  0.035310    2.659574  
+3  0.148936    0.777778   1.661616  0.059303    2.393617  
+4  0.063830    0.750000   1.602273  0.023993    2.127660  "
+College of Economics and Business,"        antecedents     consequents  antecedent support  consequent support  \
+0        (economic)     (economics)            0.084416            0.110390   
+1  (organisational)  (organisation)            0.058442            0.097403   
+
+    support  confidence      lift  leverage  conviction  
+0  0.064935    0.769231  6.968326  0.055616    3.854978  
+1  0.051948    0.888889  9.125926  0.046256    8.123377  "
+College of Humanities,"Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction]
+Index: []"
+College of Informatics,"                antecedents                               consequents  \
+0                   (agent)                             (algorithmic)   
+1             (algorithmic)                                   (agent)   
+2             (cooperative)                                   (agent)   
+3                   (agent)                             (cooperative)   
+4                   (agent)                              (multiagent)   
+...                     ...                                       ...   
+1537     (tutoring, python)            (teaching, programming, study)   
+1538        (python, study)         (tutoring, teaching, programming)   
+1539  (python, programming)               (tutoring, teaching, study)   
+1540     (python, teaching)            (tutoring, programming, study)   
+1541               (python)  (teaching, tutoring, programming, study)   
+
+      antecedent support  consequent support   support  confidence       lift  \
+0               0.071429            0.071429  0.071429         1.0  14.000000   
+1               0.071429            0.071429  0.071429         1.0  14.000000   
+2               0.071429            0.071429  0.071429         1.0  14.000000   
+3               0.071429            0.071429  0.071429         1.0  14.000000   
+4               0.071429            0.071429  0.071429         1.0  14.000000   
+...                  ...                 ...       ...         ...        ...   
+1537            0.071429            0.142857  0.071429         1.0   7.000000   
+1538            0.071429            0.142857  0.071429         1.0   7.000000   
+1539            0.071429            0.214286  0.071429         1.0   4.666667   
+1540            0.071429            0.142857  0.071429         1.0   7.000000   
+1541            0.071429            0.142857  0.071429         1.0   7.000000   
+
+      leverage  conviction  
+0     0.066327         inf  
+1     0.066327         inf  
+2     0.066327         inf  
+3     0.066327         inf  
+4     0.066327         inf  
+...        ...         ...  
+1537  0.061224         inf  
+1538  0.061224         inf  
+1539  0.056122         inf  
+1540  0.061224         inf  
+1541  0.061224         inf  
+
+[1542 rows x 9 columns]"
+College of Life Sciences,"                                  antecedents  \
+0                                 (evolution)   
+1                              (evolutionary)   
+2                              (biodiversity)   
+3                            (bioinformatics)   
+4                            (bioinformatics)   
+5                               (biomedicine)   
+6                            (bioinformatics)   
+7                             (multicellular)   
+8                               (biomedicine)   
+9                               (biomedicine)   
+10                                  (ecology)   
+11                               (ecological)   
+12                                (ecosystem)   
+13                             (evolutionary)   
+14                                (evolution)   
+15                          (neurobiological)   
+16                          (neurobiological)   
+17                             (neurosystems)   
+18                  (evolutionary, evolution)   
+19                     (evolutionary, animal)   
+20                        (animal, evolution)   
+21                             (evolutionary)   
+22                                (evolution)   
+23              (bioinformatics, biomedicine)   
+24               (bioinformatics, biomedical)   
+25                  (biomedicine, biomedical)   
+26                           (bioinformatics)   
+27                              (biomedicine)   
+28               (bioinformatics, biomedical)   
+29                 (bioinformatics, genomics)   
+30                     (genomics, biomedical)   
+31                           (bioinformatics)   
+32              (bioinformatics, biomedicine)   
+33                 (bioinformatics, genomics)   
+34                    (biomedicine, genomics)   
+35                           (bioinformatics)   
+36                              (biomedicine)   
+37                  (biomedicine, biomedical)   
+38                    (biomedicine, genomics)   
+39                     (genomics, biomedical)   
+40                              (biomedicine)   
+41               (neuroscience, neurobiology)   
+42            (neuroscience, neurobiological)   
+43            (neurobiological, neurobiology)   
+44                          (neurobiological)   
+45  (bioinformatics, biomedicine, biomedical)   
+46    (bioinformatics, biomedicine, genomics)   
+47     (bioinformatics, genomics, biomedical)   
+48        (biomedicine, genomics, biomedical)   
+49              (bioinformatics, biomedicine)   
+50               (bioinformatics, biomedical)   
+51                 (bioinformatics, genomics)   
+52                  (biomedicine, biomedical)   
+53                    (biomedicine, genomics)   
+54                     (genomics, biomedical)   
+55                           (bioinformatics)   
+56                              (biomedicine)   
+
+                               consequents  antecedent support  \
+0                                 (animal)            0.076923   
+1                                 (animal)            0.076923   
+2                                (ecology)            0.076923   
+3                             (biomedical)            0.076923   
+4                            (biomedicine)            0.076923   
+5                         (bioinformatics)            0.076923   
+6                               (genomics)            0.076923   
+7                                (biology)            0.076923   
+8                             (biomedical)            0.076923   
+9                               (genomics)            0.076923   
+10                            (ecological)            0.153846   
+11                               (ecology)            0.115385   
+12                               (ecology)            0.076923   
+13                             (evolution)            0.076923   
+14                          (evolutionary)            0.076923   
+15                          (neurobiology)            0.076923   
+16                          (neuroscience)            0.076923   
+17                          (neurobiology)            0.076923   
+18                                (animal)            0.076923   
+19                             (evolution)            0.076923   
+20                          (evolutionary)            0.076923   
+21                     (animal, evolution)            0.076923   
+22                  (evolutionary, animal)            0.076923   
+23                            (biomedical)            0.076923   
+24                           (biomedicine)            0.076923   
+25                        (bioinformatics)            0.076923   
+26               (biomedicine, biomedical)            0.076923   
+27            (bioinformatics, biomedical)            0.076923   
+28                              (genomics)            0.076923   
+29                            (biomedical)            0.076923   
+30                        (bioinformatics)            0.076923   
+31                  (genomics, biomedical)            0.076923   
+32                              (genomics)            0.076923   
+33                           (biomedicine)            0.076923   
+34                        (bioinformatics)            0.076923   
+35                 (biomedicine, genomics)            0.076923   
+36              (bioinformatics, genomics)            0.076923   
+37                              (genomics)            0.076923   
+38                            (biomedical)            0.076923   
+39                           (biomedicine)            0.076923   
+40                  (genomics, biomedical)            0.076923   
+41                       (neurobiological)            0.076923   
+42                          (neurobiology)            0.076923   
+43                          (neuroscience)            0.076923   
+44            (neuroscience, neurobiology)            0.076923   
+45                              (genomics)            0.076923   
+46                            (biomedical)            0.076923   
+47                           (biomedicine)            0.076923   
+48                        (bioinformatics)            0.076923   
+49                  (genomics, biomedical)            0.076923   
+50                 (biomedicine, genomics)            0.076923   
+51               (biomedicine, biomedical)            0.076923   
+52              (bioinformatics, genomics)            0.076923   
+53            (bioinformatics, biomedical)            0.076923   
+54           (bioinformatics, biomedicine)            0.076923   
+55     (biomedicine, genomics, biomedical)            0.076923   
+56  (bioinformatics, genomics, biomedical)            0.076923   
+
+    consequent support   support  confidence       lift  leverage  conviction  
+0             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+1             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+2             0.153846  0.076923        1.00   6.500000  0.065089         inf  
+3             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+4             0.076923  0.076923        1.00  13.000000  0.071006         inf  
+5             0.076923  0.076923        1.00  13.000000  0.071006         inf  
+6             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+7             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+8             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+9             0.115385  0.076923        1.00   8.666667  0.068047         inf  
+10            0.115385  0.115385        0.75   6.500000  0.097633    3.538462  
+11            0.153846  0.115385        1.00   6.500000  0.097633         inf  
+12            0.153846  0.076923        1.00   6.500000  0.065089         inf  
+13            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+14            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+15            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+16            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+17            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+18            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+19            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+20            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+21            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+22            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+23            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+24            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+25            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+26            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+27            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+28            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+29            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+30            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+31            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+32            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+33            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+34            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+35            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+36            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+37            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+38            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+39            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+40            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+41            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+42            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+43            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+44            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+45            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+46            0.115385  0.076923        1.00   8.666667  0.068047         inf  
+47            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+48            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+49            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+50            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+51            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+52            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+53            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+54            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+55            0.076923  0.076923        1.00  13.000000  0.071006         inf  
+56            0.076923  0.076923        1.00  13.000000  0.071006         inf  "
+College of Sciences,"              antecedents            consequents  antecedent support  \
+0          (registration)                (vrije)            0.078125   
+1                 (vrije)         (registration)            0.062500   
+2                 (vunet)         (registration)            0.078125   
+3          (registration)                (vunet)            0.078125   
+4          (universiteit)                (vunet)            0.062500   
+5                 (vunet)         (universiteit)            0.078125   
+6                 (vunet)                (vrije)            0.078125   
+7                 (vrije)                (vunet)            0.062500   
+8   (vunet, registration)                (vrije)            0.062500   
+9          (vunet, vrije)         (registration)            0.062500   
+10  (registration, vrije)                (vunet)            0.062500   
+11                (vunet)  (registration, vrije)            0.078125   
+12         (registration)         (vunet, vrije)            0.078125   
+13                (vrije)  (vunet, registration)            0.062500   
+
+    consequent support  support  confidence   lift  leverage  conviction  
+0             0.062500   0.0625         0.8  12.80  0.057617    4.687500  
+1             0.078125   0.0625         1.0  12.80  0.057617         inf  
+2             0.078125   0.0625         0.8  10.24  0.056396    4.609375  
+3             0.078125   0.0625         0.8  10.24  0.056396    4.609375  
+4             0.078125   0.0625         1.0  12.80  0.057617         inf  
+5             0.062500   0.0625         0.8  12.80  0.057617    4.687500  
+6             0.062500   0.0625         0.8  12.80  0.057617    4.687500  
+7             0.078125   0.0625         1.0  12.80  0.057617         inf  
+8             0.062500   0.0625         1.0  16.00  0.058594         inf  
+9             0.078125   0.0625         1.0  12.80  0.057617         inf  
+10            0.078125   0.0625         1.0  12.80  0.057617         inf  
+11            0.062500   0.0625         0.8  12.80  0.057617    4.687500  
+12            0.062500   0.0625         0.8  12.80  0.057617    4.687500  
+13            0.062500   0.0625         1.0  16.00  0.058594         inf  "
+College of Social Sciences,"Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction]
+Index: []"
+Graduate School of Business,"                                   antecedents  \
+0                               (academically)   
+1                               (academically)   
+2                               (academically)   
+3                             (organisational)   
+4                             (organisational)   
+5                             (specialisation)   
+6                                      (topic)   
+7                                   (workbook)   
+8                                      (topic)   
+9                                   (workbook)   
+10              (academically, specialisation)   
+11                (specialisation, managerial)   
+12                  (academically, managerial)   
+13                              (academically)   
+14                      (academically, thesis)   
+15                  (academically, managerial)   
+16                        (thesis, managerial)   
+17                              (academically)   
+18                      (academically, thesis)   
+19              (academically, specialisation)   
+20                              (academically)   
+21                (specialisation, managerial)   
+22                        (thesis, managerial)   
+23                         (research, student)   
+24                          (research, thesis)   
+25                           (student, thesis)   
+26                            (topic, student)   
+27                             (topic, thesis)   
+28                           (student, thesis)   
+29                                     (topic)   
+30                         (workbook, student)   
+31                          (workbook, thesis)   
+32                           (student, thesis)   
+33                                  (workbook)   
+34      (academically, thesis, specialisation)   
+35  (academically, specialisation, managerial)   
+36        (thesis, specialisation, managerial)   
+37          (academically, thesis, managerial)   
+38              (academically, specialisation)   
+39                (specialisation, managerial)   
+40                      (academically, thesis)   
+41                  (academically, managerial)   
+42                        (thesis, managerial)   
+43                              (academically)   
+
+                             consequents  antecedent support  \
+0                           (managerial)            0.062500   
+1                       (specialisation)            0.062500   
+2                               (thesis)            0.062500   
+3                           (management)            0.069444   
+4                         (organisation)            0.069444   
+5                               (thesis)            0.111111   
+6                              (student)            0.069444   
+7                              (student)            0.055556   
+8                               (thesis)            0.069444   
+9                               (thesis)            0.055556   
+10                          (managerial)            0.062500   
+11                        (academically)            0.055556   
+12                      (specialisation)            0.055556   
+13          (specialisation, managerial)            0.062500   
+14                          (managerial)            0.062500   
+15                              (thesis)            0.055556   
+16                        (academically)            0.055556   
+17                  (thesis, managerial)            0.062500   
+18                      (specialisation)            0.062500   
+19                              (thesis)            0.062500   
+20              (thesis, specialisation)            0.062500   
+21                              (thesis)            0.055556   
+22                      (specialisation)            0.055556   
+23                              (thesis)            0.055556   
+24                             (student)            0.076389   
+25                            (research)            0.069444   
+26                              (thesis)            0.055556   
+27                             (student)            0.055556   
+28                               (topic)            0.069444   
+29                     (student, thesis)            0.069444   
+30                              (thesis)            0.055556   
+31                             (student)            0.055556   
+32                            (workbook)            0.069444   
+33                     (student, thesis)            0.055556   
+34                          (managerial)            0.062500   
+35                              (thesis)            0.055556   
+36                        (academically)            0.055556   
+37                      (specialisation)            0.055556   
+38                  (thesis, managerial)            0.062500   
+39                (academically, thesis)            0.055556   
+40          (specialisation, managerial)            0.062500   
+41              (thesis, specialisation)            0.055556   
+42        (academically, specialisation)            0.055556   
+43  (thesis, specialisation, managerial)            0.062500   
+
+    consequent support   support  confidence       lift  leverage  conviction  
+0             0.097222  0.055556    0.888889   9.142857  0.049479    8.125000  
+1             0.111111  0.062500    1.000000   9.000000  0.055556         inf  
+2             0.201389  0.062500    1.000000   4.965517  0.049913         inf  
+3             0.208333  0.055556    0.800000   3.840000  0.041088    3.958333  
+4             0.104167  0.062500    0.900000   8.640000  0.055266    8.958333  
+5             0.201389  0.104167    0.937500   4.655172  0.081790   12.777778  
+6             0.138889  0.055556    0.800000   5.760000  0.045910    4.305556  
+7             0.138889  0.055556    1.000000   7.200000  0.047840         inf  
+8             0.201389  0.055556    0.800000   3.972414  0.041570    3.993056  
+9             0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+10            0.097222  0.055556    0.888889   9.142857  0.049479    8.125000  
+11            0.062500  0.055556    1.000000  16.000000  0.052083         inf  
+12            0.111111  0.055556    1.000000   9.000000  0.049383         inf  
+13            0.055556  0.055556    0.888889  16.000000  0.052083    8.500000  
+14            0.097222  0.055556    0.888889   9.142857  0.049479    8.125000  
+15            0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+16            0.062500  0.055556    1.000000  16.000000  0.052083         inf  
+17            0.055556  0.055556    0.888889  16.000000  0.052083    8.500000  
+18            0.111111  0.062500    1.000000   9.000000  0.055556         inf  
+19            0.201389  0.062500    1.000000   4.965517  0.049913         inf  
+20            0.104167  0.062500    1.000000   9.600000  0.055990         inf  
+21            0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+22            0.111111  0.055556    1.000000   9.000000  0.049383         inf  
+23            0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+24            0.138889  0.055556    0.727273   5.236364  0.044946    3.157407  
+25            0.111111  0.055556    0.800000   7.200000  0.047840    4.444444  
+26            0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+27            0.138889  0.055556    1.000000   7.200000  0.047840         inf  
+28            0.069444  0.055556    0.800000  11.520000  0.050733    4.652778  
+29            0.069444  0.055556    0.800000  11.520000  0.050733    4.652778  
+30            0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+31            0.138889  0.055556    1.000000   7.200000  0.047840         inf  
+32            0.055556  0.055556    0.800000  14.400000  0.051698    4.722222  
+33            0.069444  0.055556    1.000000  14.400000  0.051698         inf  
+34            0.097222  0.055556    0.888889   9.142857  0.049479    8.125000  
+35            0.201389  0.055556    1.000000   4.965517  0.044367         inf  
+36            0.062500  0.055556    1.000000  16.000000  0.052083         inf  
+37            0.111111  0.055556    1.000000   9.000000  0.049383         inf  
+38            0.055556  0.055556    0.888889  16.000000  0.052083    8.500000  
+39            0.062500  0.055556    1.000000  16.000000  0.052083         inf  
+40            0.055556  0.055556    0.888889  16.000000  0.052083    8.500000  
+41            0.104167  0.055556    1.000000   9.600000  0.049769         inf  
+42            0.062500  0.055556    1.000000  16.000000  0.052083         inf  
+43            0.055556  0.055556    0.888889  16.000000  0.052083    8.500000  "
+Graduate School of Child Development and Education,"                     antecedents                  consequents  \
+0                  (adolescence)                 (adolescent)   
+1                  (adolescence)              (developmental)   
+2                   (assessment)                      (study)   
+3                  (development)              (developmental)   
+4                    (modelling)                (educational)   
+5                  (supervision)                   (practice)   
+6                   (researcher)                   (research)   
+7                     (research)                      (study)   
+8                   (researcher)                      (study)   
+9                      (seminar)                   (teaching)   
+10                 (supervision)                    (student)   
+11   (developmental, adolescent)                (adolescence)   
+12  (developmental, adolescence)                 (adolescent)   
+13     (adolescent, adolescence)              (developmental)   
+14                 (adolescence)  (developmental, adolescent)   
+15       (educational, teaching)                      (study)   
+16           (practice, seminar)                   (teaching)   
+17          (practice, teaching)                    (seminar)   
+18           (practice, student)                (supervision)   
+19       (practice, supervision)                    (student)   
+20        (student, supervision)                   (practice)   
+21                 (supervision)          (practice, student)   
+22        (research, researcher)                      (study)   
+23           (researcher, study)                   (research)   
+24                  (researcher)            (research, study)   
+
+    antecedent support  consequent support   support  confidence   lift  \
+0             0.083333            0.125000  0.083333        1.00   8.00   
+1             0.083333            0.250000  0.083333        1.00   4.00   
+2             0.166667            0.333333  0.125000        0.75   2.25   
+3             0.083333            0.250000  0.083333        1.00   4.00   
+4             0.083333            0.333333  0.083333        1.00   3.00   
+5             0.083333            0.208333  0.083333        1.00   4.80   
+6             0.083333            0.166667  0.083333        1.00   6.00   
+7             0.166667            0.333333  0.125000        0.75   2.25   
+8             0.083333            0.333333  0.083333        1.00   3.00   
+9             0.166667            0.208333  0.125000        0.75   3.60   
+10            0.083333            0.208333  0.083333        1.00   4.80   
+11            0.083333            0.083333  0.083333        1.00  12.00   
+12            0.083333            0.125000  0.083333        1.00   8.00   
+13            0.083333            0.250000  0.083333        1.00   4.00   
+14            0.083333            0.083333  0.083333        1.00  12.00   
+15            0.083333            0.333333  0.083333        1.00   3.00   
+16            0.083333            0.208333  0.083333        1.00   4.80   
+17            0.083333            0.166667  0.083333        1.00   6.00   
+18            0.083333            0.083333  0.083333        1.00  12.00   
+19            0.083333            0.208333  0.083333        1.00   4.80   
+20            0.083333            0.208333  0.083333        1.00   4.80   
+21            0.083333            0.083333  0.083333        1.00  12.00   
+22            0.083333            0.333333  0.083333        1.00   3.00   
+23            0.083333            0.166667  0.083333        1.00   6.00   
+24            0.083333            0.125000  0.083333        1.00   8.00   
+
+    leverage  conviction  
+0   0.072917         inf  
+1   0.062500         inf  
+2   0.069444    2.666667  
+3   0.062500         inf  
+4   0.055556         inf  
+5   0.065972         inf  
+6   0.069444         inf  
+7   0.069444    2.666667  
+8   0.055556         inf  
+9   0.090278    3.166667  
+10  0.065972         inf  
+11  0.076389         inf  
+12  0.072917         inf  
+13  0.062500         inf  
+14  0.076389         inf  
+15  0.055556         inf  
+16  0.065972         inf  
+17  0.069444         inf  
+18  0.076389         inf  
+19  0.065972         inf  
+20  0.065972         inf  
+21  0.076389         inf  
+22  0.055556         inf  
+23  0.069444         inf  
+24  0.072917         inf  "
+Graduate School of Communication,"                 antecedents                                  consequents  \
+0              (preparation)                                (methodology)   
+1                 (semester)                                (methodology)   
+2              (methodology)                                    (seminar)   
+3              (methodology)                                     (thesis)   
+4              (preparation)                                   (semester)   
+..                       ...                                          ...   
+176       (thesis, semester)          (methodology, seminar, preparation)   
+177  (preparation, semester)               (methodology, seminar, thesis)   
+178    (preparation, thesis)             (methodology, seminar, semester)   
+179               (semester)  (methodology, seminar, thesis, preparation)   
+180            (preparation)     (methodology, seminar, thesis, semester)   
+
+     antecedent support  consequent support   support  confidence       lift  \
+0              0.080645            0.145161  0.080645    1.000000   6.888889   
+1              0.112903            0.145161  0.080645    0.714286   4.920635   
+2              0.145161            0.322581  0.112903    0.777778   2.411111   
+3              0.145161            0.241935  0.112903    0.777778   3.214815   
+4              0.080645            0.112903  0.080645    1.000000   8.857143   
+..                  ...                 ...       ...         ...        ...   
+176            0.080645            0.080645  0.080645    1.000000  12.400000   
+177            0.080645            0.096774  0.080645    1.000000  10.333333   
+178            0.080645            0.080645  0.080645    1.000000  12.400000   
+179            0.112903            0.080645  0.080645    0.714286   8.857143   
+180            0.080645            0.080645  0.080645    1.000000  12.400000   
+
+     leverage  conviction  
+0    0.068939         inf  
+1    0.064256    2.991935  
+2    0.066077    3.048387  
+3    0.077784    3.411290  
+4    0.071540         inf  
+..        ...         ...  
+176  0.074142         inf  
+177  0.072841         inf  
+178  0.074142         inf  
+179  0.071540    3.217742  
+180  0.074142         inf  
+
+[181 rows x 9 columns]"
+Graduate School of Economics,"               antecedents                             consequents  \
+0               (academic)                                (thesis)   
+1               (economic)                             (economics)   
+2               (overview)                             (empirical)   
+3               (research)                             (empirical)   
+4              (empirical)                              (research)   
+..                     ...                                     ...   
+126    (thesis, empirical)           (research, overview, seminar)   
+127  (overview, empirical)             (research, seminar, thesis)   
+128   (research, overview)            (seminar, thesis, empirical)   
+129     (overview, thesis)          (research, seminar, empirical)   
+130             (overview)  (research, seminar, thesis, empirical)   
+
+     antecedent support  consequent support   support  confidence       lift  \
+0              0.070588            0.294118  0.058824    0.833333   2.833333   
+1              0.129412            0.211765  0.105882    0.818182   3.863636   
+2              0.082353            0.105882  0.058824    0.714286   6.746032   
+3              0.105882            0.105882  0.082353    0.777778   7.345679   
+4              0.105882            0.105882  0.082353    0.777778   7.345679   
+..                  ...                 ...       ...         ...        ...   
+126            0.082353            0.070588  0.058824    0.714286  10.119048   
+127            0.058824            0.094118  0.058824    1.000000  10.625000   
+128            0.070588            0.082353  0.058824    0.833333  10.119048   
+129            0.070588            0.082353  0.058824    0.833333  10.119048   
+130            0.082353            0.082353  0.058824    0.714286   8.673469   
+
+     leverage  conviction  
+0    0.038062    4.235294  
+1    0.078478    4.335294  
+2    0.050104    3.129412  
+3    0.071142    4.023529  
+4    0.071142    4.023529  
+..        ...         ...  
+126  0.053010    3.252941  
+127  0.053287         inf  
+128  0.053010    5.505882  
+129  0.053010    5.505882  
+130  0.052042    3.211765  
+
+[131 rows x 9 columns]"
+Graduate School of Humanities,"              antecedents                        consequents  \
+0              (lecturer)                            (study)   
+1                 (tutor)                         (lecturer)   
+2              (tutoring)                         (lecturer)   
+3                 (tutor)                          (student)   
+4              (tutoring)                          (student)   
+..                    ...                                ...   
+119  (tutoring, lecturer)            (tutor, student, study)   
+120   (tutoring, student)           (tutor, study, lecturer)   
+121     (study, lecturer)         (tutor, tutoring, student)   
+122   (student, lecturer)           (tutor, tutoring, study)   
+123            (tutoring)  (tutor, student, study, lecturer)   
+
+     antecedent support  consequent support   support  confidence       lift  \
+0              0.132420            0.420091  0.095890    0.724138   1.723763   
+1              0.107306            0.132420  0.079909    0.744681   5.623624   
+2              0.077626            0.132420  0.077626    1.000000   7.551724   
+3              0.107306            0.251142  0.098174    0.914894   3.642940   
+4              0.077626            0.251142  0.073059    0.941176   3.747594   
+..                  ...                 ...       ...         ...        ...   
+119            0.077626            0.089041  0.073059    0.941176  10.570136   
+120            0.073059            0.075342  0.073059    1.000000  13.272727   
+121            0.095890            0.073059  0.073059    0.761905  10.428571   
+122            0.086758            0.075342  0.073059    0.842105  11.177033   
+123            0.077626            0.073059  0.073059    0.941176  12.882353   
+
+     leverage  conviction  
+0    0.040262    2.102169  
+1    0.065699    3.398021  
+2    0.067346         inf  
+3    0.071225    8.799087  
+4    0.053564   12.730594  
+..        ...         ...  
+119  0.066147   15.486301  
+120  0.067555         inf  
+121  0.066054    3.893151  
+122  0.066523    5.856164  
+123  0.067388   15.757991  
+
+[124 rows x 9 columns]"
+Graduate School of Informatics,"        antecedents                                     consequents  \
+0    (registration)                                     (amsterdam)   
+1       (amsterdam)                                  (registration)   
+2    (universiteit)                                     (amsterdam)   
+3       (amsterdam)                                  (universiteit)   
+4       (amsterdam)                                         (vrije)   
+..              ...                                             ...   
+176  (registration)         (universiteit, vunet, amsterdam, vrije)   
+177  (universiteit)         (amsterdam, vunet, registration, vrije)   
+178         (vunet)  (universiteit, amsterdam, registration, vrije)   
+179     (amsterdam)      (universiteit, vunet, registration, vrije)   
+180         (vrije)  (amsterdam, universiteit, vunet, registration)   
+
+     antecedent support  consequent support   support  confidence      lift  \
+0              0.217742            0.217742  0.217742         1.0  4.592593   
+1              0.217742            0.217742  0.217742         1.0  4.592593   
+2              0.217742            0.217742  0.217742         1.0  4.592593   
+3              0.217742            0.217742  0.217742         1.0  4.592593   
+4              0.217742            0.217742  0.217742         1.0  4.592593   
+..                  ...                 ...       ...         ...       ...   
+176            0.217742            0.217742  0.217742         1.0  4.592593   
+177            0.217742            0.217742  0.217742         1.0  4.592593   
+178            0.217742            0.217742  0.217742         1.0  4.592593   
+179            0.217742            0.217742  0.217742         1.0  4.592593   
+180            0.217742            0.217742  0.217742         1.0  4.592593   
+
+     leverage  conviction  
+0     0.17033         inf  
+1     0.17033         inf  
+2     0.17033         inf  
+3     0.17033         inf  
+4     0.17033         inf  
+..        ...         ...  
+176   0.17033         inf  
+177   0.17033         inf  
+178   0.17033         inf  
+179   0.17033         inf  
+180   0.17033         inf  
+
+[181 rows x 9 columns]"
+Graduate School of Life and Earth Sciences,"        antecedents                                     consequents  \
+0    (registration)                                     (amsterdam)   
+1       (amsterdam)                                  (registration)   
+2    (universiteit)                                     (amsterdam)   
+3       (amsterdam)                                  (universiteit)   
+4       (amsterdam)                                         (vrije)   
+..              ...                                             ...   
+183  (registration)         (universiteit, vunet, amsterdam, vrije)   
+184  (universiteit)         (amsterdam, vunet, registration, vrije)   
+185         (vunet)  (universiteit, amsterdam, registration, vrije)   
+186     (amsterdam)      (universiteit, vunet, registration, vrije)   
+187         (vrije)  (amsterdam, universiteit, vunet, registration)   
+
+     antecedent support  consequent support   support  confidence      lift  \
+0              0.260870            0.243478  0.243478    0.933333  3.833333   
+1              0.243478            0.260870  0.243478    1.000000  3.833333   
+2              0.260870            0.243478  0.243478    0.933333  3.833333   
+3              0.243478            0.260870  0.243478    1.000000  3.833333   
+4              0.243478            0.252174  0.243478    1.000000  3.965517   
+..                  ...                 ...       ...         ...       ...   
+183            0.260870            0.243478  0.243478    0.933333  3.833333   
+184            0.260870            0.243478  0.243478    0.933333  3.833333   
+185            0.252174            0.243478  0.243478    0.965517  3.965517   
+186            0.243478            0.252174  0.243478    1.000000  3.965517   
+187            0.252174            0.243478  0.243478    0.965517  3.965517   
+
+     leverage  conviction  
+0    0.179962   11.347826  
+1    0.179962         inf  
+2    0.179962   11.347826  
+3    0.179962         inf  
+4    0.182079         inf  
+..        ...         ...  
+183  0.179962   11.347826  
+184  0.179962   11.347826  
+185  0.182079   21.939130  
+186  0.182079         inf  
+187  0.182079   21.939130  
+
+[188 rows x 9 columns]"
+Graduate School of Sciences,"                                           antecedents  \
+0                                          (amsterdam)   
+1                                       (universiteit)   
+2                                          (amsterdam)   
+3                                          (amsterdam)   
+4                                              (vrije)   
+..                                                 ...   
+433  (httpwwwstudentuvanlmathazitemcourseregistrati...   
+434  (programme, httpwwwstudentuvanlmathazitemcours...   
+435  (httpwwwstudentuvanlmathazitemcourseregistrati...   
+436                                        (procedure)   
+437  (httpwwwstudentuvanlmathazitemcourseregistrati...   
+
+                                           consequents  antecedent support  \
+0                                       (registration)            0.092437   
+1                                          (amsterdam)            0.092437   
+2                                       (universiteit)            0.092437   
+3                                              (vrije)            0.092437   
+4                                          (amsterdam)            0.092437   
+..                                                 ...                 ...   
+433                 (programme, procedure, mastermath)            0.109244   
+434              (procedure, mastermath, registration)            0.109244   
+435               (programme, procedure, registration)            0.109244   
+436  (programme, httpwwwstudentuvanlmathazitemcours...            0.109244   
+437   (programme, procedure, mastermath, registration)            0.109244   
+
+     consequent support   support  confidence       lift  leverage  conviction  
+0              0.205882  0.092437         1.0   4.857143  0.073406         inf  
+1              0.092437  0.092437         1.0  10.818182  0.083892         inf  
+2              0.092437  0.092437         1.0  10.818182  0.083892         inf  
+3              0.092437  0.092437         1.0  10.818182  0.083892         inf  
+4              0.092437  0.092437         1.0  10.818182  0.083892         inf  
+..                  ...       ...         ...        ...       ...         ...  
+433            0.109244  0.109244         1.0   9.153846  0.097310         inf  
+434            0.109244  0.109244         1.0   9.153846  0.097310         inf  
+435            0.109244  0.109244         1.0   9.153846  0.097310         inf  
+436            0.109244  0.109244         1.0   9.153846  0.097310         inf  
+437            0.109244  0.109244         1.0   9.153846  0.097310         inf  
+
+[438 rows x 9 columns]"
+Graduate school of Social Sciences,"     antecedents consequents  antecedent support  consequent support  \
+0  (methodology)     (study)            0.088372            0.469767   
+
+    support  confidence      lift  leverage  conviction  
+0  0.065116    0.736842  1.568525  0.023602    2.014884  "
+Institute for Interdisciplinary Studies,"        antecedents       consequents  antecedent support  consequent support  \
+0    (neuroscience)       (cognitive)            0.104348            0.104348   
+1       (cognitive)    (neuroscience)            0.104348            0.104348   
+2     (sustainable)  (sustainability)            0.069565            0.060870   
+3  (sustainability)     (sustainable)            0.060870            0.069565   
+
+    support  confidence       lift  leverage  conviction  
+0  0.086957    0.833333   7.986111  0.076068    5.373913  
+1  0.086957    0.833333   7.986111  0.076068    5.373913  
+2  0.052174    0.750000  12.321429  0.047940    3.756522  
+3  0.052174    0.857143  12.321429  0.047940    6.513043  "
+Institute of Executive Programmes,"      antecedents   consequents  antecedent support  consequent support  \
+0     (marketing)    (consumer)            0.069565            0.052174   
+1      (consumer)   (marketing)            0.052174            0.069565   
+2     (financial)     (finance)            0.086957            0.156522   
+3        (manage)    (managing)            0.069565            0.086957   
+4    (managerial)  (management)            0.069565            0.330435   
+5      (managing)  (management)            0.086957            0.330435   
+6  (organisation)  (management)            0.086957            0.330435   
+
+    support  confidence       lift  leverage  conviction  
+0  0.052174        0.75  14.375000  0.048544    3.791304  
+1  0.052174        1.00  14.375000  0.048544         inf  
+2  0.060870        0.70   4.472222  0.047259    2.811594  
+3  0.052174        0.75   8.625000  0.046125    3.652174  
+4  0.052174        0.75   2.269737  0.029187    2.678261  
+5  0.060870        0.70   2.118421  0.032136    2.231884  
+6  0.060870        0.70   2.118421  0.032136    2.231884  "
+Medical Informatics,"       antecedents                             consequents  \
+0             (10)                                   (mam)   
+1            (11e)                                   (mam)   
+2            (12e)                                   (mam)   
+3            (mam)                                (actenl)   
+4         (actenl)                                   (mam)   
+..             ...                                     ...   
+190      (medical)       (informatics, data, datasets, ai)   
+191           (ai)  (informatics, data, medical, datasets)   
+192         (data)    (informatics, medical, datasets, ai)   
+193  (informatics)           (datasets, data, medical, ai)   
+194     (datasets)        (informatics, data, medical, ai)   
+
+     antecedent support  consequent support   support  confidence       lift  \
+0              0.058824            0.647059  0.058824    1.000000   1.545455   
+1              0.058824            0.647059  0.058824    1.000000   1.545455   
+2              0.058824            0.647059  0.058824    1.000000   1.545455   
+3              0.647059            0.588235  0.470588    0.727273   1.236364   
+4              0.588235            0.647059  0.470588    0.800000   1.236364   
+..                  ...                 ...       ...         ...        ...   
+190            0.058824            0.058824  0.058824    1.000000  17.000000   
+191            0.058824            0.058824  0.058824    1.000000  17.000000   
+192            0.058824            0.058824  0.058824    1.000000  17.000000   
+193            0.058824            0.058824  0.058824    1.000000  17.000000   
+194            0.058824            0.058824  0.058824    1.000000  17.000000   
+
+     leverage  conviction  
+0    0.020761         inf  
+1    0.020761         inf  
+2    0.020761         inf  
+3    0.089965    1.509804  
+4    0.089965    1.764706  
+..        ...         ...  
+190  0.055363         inf  
+191  0.055363         inf  
+192  0.055363         inf  
+193  0.055363         inf  
+194  0.055363         inf  
+
+[195 rows x 9 columns]"
+PPLE - Politics Psychology Law Economics,"          antecedents       consequents  antecedent support  \
+0         (economics)        (economic)            0.050847   
+1       (methodology)  (methodological)            0.050847   
+2    (methodological)     (methodology)            0.050847   
+3     (psychological)      (psychology)            0.050847   
+4  (lecture, student)           (study)            0.050847   
+
+   consequent support   support  confidence       lift  leverage  conviction  
+0            0.084746  0.050847         1.0  11.800000  0.046538         inf  
+1            0.050847  0.050847         1.0  19.666667  0.048262         inf  
+2            0.050847  0.050847         1.0  19.666667  0.048262         inf  
+3            0.135593  0.050847         1.0   7.375000  0.043953         inf  
+4            0.203390  0.050847         1.0   4.916667  0.040506         inf  "
+Psychology,"                    antecedents                consequents  \
+0                    (academic)                  (student)   
+1                    (academic)                    (study)   
+2                  (assessment)                    (study)   
+3                 (examination)                    (study)   
+4                  (internship)              (supervision)   
+5                 (supervision)               (internship)   
+6                  (supervisor)               (internship)   
+7                     (lecture)                    (study)   
+8                    (practice)                    (study)   
+9                 (programming)                    (study)   
+10                 (psychology)                    (study)   
+11                   (research)                    (study)   
+12                     (thesis)                 (research)   
+13                    (student)                    (study)   
+14                     (thesis)                  (student)   
+15                (supervision)                    (study)   
+16                   (teaching)                    (study)   
+17                     (thesis)                    (study)   
+18                 (supervisor)              (supervision)   
+19          (internship, study)              (supervision)   
+20    (internship, supervision)                    (study)   
+21         (study, supervision)               (internship)   
+22     (supervisor, internship)              (supervision)   
+23    (supervisor, supervision)               (internship)   
+24                 (supervisor)  (internship, supervision)   
+25          (research, student)                    (study)   
+26          (research, student)                   (thesis)   
+27           (research, thesis)                  (student)   
+28            (student, thesis)                 (research)   
+29           (research, thesis)                    (study)   
+30              (thesis, study)                 (research)   
+31                     (thesis)          (research, study)   
+32            (student, thesis)                    (study)   
+33              (thesis, study)                  (student)   
+34                     (thesis)           (student, study)   
+35  (research, student, thesis)                    (study)   
+36   (research, student, study)                   (thesis)   
+37    (research, thesis, study)                  (student)   
+38     (student, thesis, study)                 (research)   
+39          (research, student)            (thesis, study)   
+40           (research, thesis)           (student, study)   
+41            (student, thesis)          (research, study)   
+
+    antecedent support  consequent support   support  confidence       lift  \
+0             0.068027            0.265306  0.054422    0.800000   3.015385   
+1             0.068027            0.823129  0.054422    0.800000   0.971901   
+2             0.054422            0.823129  0.054422    1.000000   1.214876   
+3             0.095238            0.823129  0.081633    0.857143   1.041322   
+4             0.108844            0.088435  0.081633    0.750000   8.480769   
+5             0.088435            0.108844  0.081633    0.923077   8.480769   
+6             0.054422            0.108844  0.054422    1.000000   9.187500   
+7             0.176871            0.823129  0.149660    0.846154   1.027972   
+8             0.081633            0.823129  0.074830    0.916667   1.113636   
+9             0.068027            0.823129  0.054422    0.800000   0.971901   
+10            0.204082            0.823129  0.183673    0.900000   1.093388   
+11            0.183673            0.823129  0.176871    0.962963   1.169881   
+12            0.136054            0.183673  0.102041    0.750000   4.083333   
+13            0.265306            0.823129  0.238095    0.897436   1.090273   
+14            0.136054            0.265306  0.115646    0.850000   3.203846   
+15            0.088435            0.823129  0.068027    0.769231   0.934520   
+16            0.088435            0.823129  0.081633    0.923077   1.121424   
+17            0.136054            0.823129  0.136054    1.000000   1.214876   
+18            0.054422            0.088435  0.054422    1.000000  11.307692   
+19            0.061224            0.088435  0.061224    1.000000  11.307692   
+20            0.081633            0.823129  0.061224    0.750000   0.911157   
+21            0.068027            0.108844  0.061224    0.900000   8.268750   
+22            0.054422            0.088435  0.054422    1.000000  11.307692   
+23            0.054422            0.108844  0.054422    1.000000   9.187500   
+24            0.054422            0.081633  0.054422    1.000000  12.250000   
+25            0.095238            0.823129  0.088435    0.928571   1.128099   
+26            0.095238            0.136054  0.088435    0.928571   6.825000   
+27            0.102041            0.265306  0.088435    0.866667   3.266667   
+28            0.115646            0.183673  0.088435    0.764706   4.163399   
+29            0.102041            0.823129  0.102041    1.000000   1.214876   
+30            0.136054            0.183673  0.102041    0.750000   4.083333   
+31            0.136054            0.176871  0.102041    0.750000   4.240385   
+32            0.115646            0.823129  0.115646    1.000000   1.214876   
+33            0.136054            0.265306  0.115646    0.850000   3.203846   
+34            0.136054            0.238095  0.115646    0.850000   3.570000   
+35            0.088435            0.823129  0.088435    1.000000   1.214876   
+36            0.088435            0.136054  0.088435    1.000000   7.350000   
+37            0.102041            0.265306  0.088435    0.866667   3.266667   
+38            0.115646            0.183673  0.088435    0.764706   4.163399   
+39            0.095238            0.136054  0.088435    0.928571   6.825000   
+40            0.102041            0.238095  0.088435    0.866667   3.640000   
+41            0.115646            0.176871  0.088435    0.764706   4.323529   
+
+    leverage  conviction  
+0   0.036374    3.673469  
+1  -0.001573    0.884354  
+2   0.009626         inf  
+3   0.003239    1.238095  
+4   0.072007    3.646259  
+5   0.072007   11.585034  
+6   0.048498         inf  
+7   0.004072    1.149660  
+8   0.007636    2.122449  
+9  -0.001573    0.884354  
+10  0.015688    1.768707  
+11  0.025684    4.775510  
+12  0.077051    3.265306  
+13  0.019714    1.724490  
+14  0.079550    4.897959  
+15 -0.004767    0.766440  
+16  0.008839    2.299320  
+17  0.024064         inf  
+18  0.049609         inf  
+19  0.055810         inf  
+20 -0.005970    0.707483  
+21  0.053820    8.911565  
+22  0.049609         inf  
+23  0.048498         inf  
+24  0.049979         inf  
+25  0.010042    2.476190  
+26  0.075478   12.095238  
+27  0.061363    5.510204  
+28  0.067194    3.469388  
+29  0.018048         inf  
+30  0.077051    3.265306  
+31  0.077977    3.292517  
+32  0.020454         inf  
+33  0.079550    4.897959  
+34  0.083252    5.079365  
+35  0.015642         inf  
+36  0.076403         inf  
+37  0.061363    5.510204  
+38  0.067194    3.469388  
+39  0.075478   12.095238  
+40  0.064140    5.714286  
+41  0.067981    3.498299  "

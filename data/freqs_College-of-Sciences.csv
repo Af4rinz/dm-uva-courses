@@ -1,0 +1,21 @@
+support,itemsets
+0.0625,frozenset({'astronomy'})
+0.09375,frozenset({'chemistry'})
+0.1875,frozenset({'lecture'})
+0.078125,frozenset({'mathematics'})
+0.0625,frozenset({'programming'})
+0.171875,frozenset({'quantum'})
+0.078125,frozenset({'registration'})
+0.109375,frozenset({'student'})
+0.078125,frozenset({'study'})
+0.0625,frozenset({'syllabus'})
+0.09375,frozenset({'teaching'})
+0.0625,frozenset({'universiteit'})
+0.0625,frozenset({'vrije'})
+0.078125,frozenset({'vunet'})
+0.0625,"frozenset({'registration', 'vrije'})"
+0.0625,"frozenset({'vunet', 'registration'})"
+0.0625,"frozenset({'student', 'teaching'})"
+0.0625,"frozenset({'universiteit', 'vunet'})"
+0.0625,"frozenset({'vunet', 'vrije'})"
+0.0625,"frozenset({'vunet', 'registration', 'vrije'})"

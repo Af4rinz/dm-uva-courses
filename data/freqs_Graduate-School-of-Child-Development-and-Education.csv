@@ -1,0 +1,50 @@
+support,itemsets
+0.08333333333333333,frozenset({'academic'})
+0.08333333333333333,frozenset({'adolescence'})
+0.125,frozenset({'adolescent'})
+0.16666666666666666,frozenset({'assessment'})
+0.125,frozenset({'develop'})
+0.08333333333333333,frozenset({'development'})
+0.25,frozenset({'developmental'})
+0.08333333333333333,frozenset({'education'})
+0.3333333333333333,frozenset({'educational'})
+0.08333333333333333,frozenset({'intervention'})
+0.08333333333333333,frozenset({'modelling'})
+0.08333333333333333,frozenset({'parenting'})
+0.20833333333333334,frozenset({'practice'})
+0.16666666666666666,frozenset({'research'})
+0.08333333333333333,frozenset({'researcher'})
+0.16666666666666666,frozenset({'seminar'})
+0.20833333333333334,frozenset({'student'})
+0.3333333333333333,frozenset({'study'})
+0.08333333333333333,frozenset({'supervision'})
+0.20833333333333334,frozenset({'teaching'})
+0.125,frozenset({'youth'})
+0.08333333333333333,"frozenset({'adolescent', 'adolescence'})"
+0.08333333333333333,"frozenset({'developmental', 'adolescence'})"
+0.08333333333333333,"frozenset({'developmental', 'adolescent'})"
+0.08333333333333333,"frozenset({'adolescent', 'youth'})"
+0.08333333333333333,"frozenset({'assessment', 'developmental'})"
+0.125,"frozenset({'assessment', 'study'})"
+0.08333333333333333,"frozenset({'assessment', 'youth'})"
+0.08333333333333333,"frozenset({'developmental', 'development'})"
+0.08333333333333333,"frozenset({'developmental', 'youth'})"
+0.08333333333333333,"frozenset({'modelling', 'educational'})"
+0.08333333333333333,"frozenset({'educational', 'student'})"
+0.125,"frozenset({'educational', 'study'})"
+0.08333333333333333,"frozenset({'educational', 'teaching'})"
+0.08333333333333333,"frozenset({'practice', 'seminar'})"
+0.08333333333333333,"frozenset({'practice', 'student'})"
+0.08333333333333333,"frozenset({'practice', 'supervision'})"
+0.08333333333333333,"frozenset({'practice', 'teaching'})"
+0.08333333333333333,"frozenset({'research', 'researcher'})"
+0.125,"frozenset({'research', 'study'})"
+0.08333333333333333,"frozenset({'researcher', 'study'})"
+0.125,"frozenset({'seminar', 'teaching'})"
+0.08333333333333333,"frozenset({'student', 'supervision'})"
+0.125,"frozenset({'teaching', 'study'})"
+0.08333333333333333,"frozenset({'developmental', 'adolescent', 'adolescence'})"
+0.08333333333333333,"frozenset({'educational', 'teaching', 'study'})"
+0.08333333333333333,"frozenset({'practice', 'seminar', 'teaching'})"
+0.08333333333333333,"frozenset({'practice', 'student', 'supervision'})"
+0.08333333333333333,"frozenset({'research', 'researcher', 'study'})"

@@ -1,0 +1,43 @@
+support,itemsets
+0.13636363636363635,frozenset({'assessment'})
+0.13636363636363635,frozenset({'discipline'})
+0.09090909090909091,frozenset({'educated'})
+0.22727272727272727,frozenset({'education'})
+0.2727272727272727,frozenset({'educational'})
+0.09090909090909091,frozenset({'learns'})
+0.09090909090909091,frozenset({'lecturer'})
+0.09090909090909091,frozenset({'parenting'})
+0.09090909090909091,frozenset({'participate'})
+0.09090909090909091,frozenset({'pedagogical'})
+0.09090909090909091,frozenset({'sociology'})
+0.22727272727272727,frozenset({'student'})
+0.5,frozenset({'study'})
+0.22727272727272727,frozenset({'teaching'})
+0.22727272727272727,frozenset({'violence'})
+0.09090909090909091,"frozenset({'assessment', 'learns'})"
+0.09090909090909091,"frozenset({'assessment', 'teaching'})"
+0.13636363636363635,"frozenset({'discipline', 'study'})"
+0.13636363636363635,"frozenset({'violence', 'discipline'})"
+0.09090909090909091,"frozenset({'education', 'educated'})"
+0.09090909090909091,"frozenset({'education', 'educational'})"
+0.13636363636363635,"frozenset({'education', 'student'})"
+0.09090909090909091,"frozenset({'education', 'study'})"
+0.09090909090909091,"frozenset({'education', 'teaching'})"
+0.09090909090909091,"frozenset({'educational', 'lecturer'})"
+0.13636363636363635,"frozenset({'educational', 'study'})"
+0.09090909090909091,"frozenset({'educational', 'teaching'})"
+0.09090909090909091,"frozenset({'learns', 'teaching'})"
+0.09090909090909091,"frozenset({'study', 'lecturer'})"
+0.09090909090909091,"frozenset({'study', 'participate'})"
+0.09090909090909091,"frozenset({'violence', 'participate'})"
+0.09090909090909091,"frozenset({'sociology', 'study'})"
+0.09090909090909091,"frozenset({'sociology', 'violence'})"
+0.09090909090909091,"frozenset({'student', 'study'})"
+0.13636363636363635,"frozenset({'student', 'teaching'})"
+0.22727272727272727,"frozenset({'violence', 'study'})"
+0.09090909090909091,"frozenset({'assessment', 'learns', 'teaching'})"
+0.13636363636363635,"frozenset({'violence', 'discipline', 'study'})"
+0.09090909090909091,"frozenset({'education', 'student', 'teaching'})"
+0.09090909090909091,"frozenset({'educational', 'study', 'lecturer'})"
+0.09090909090909091,"frozenset({'violence', 'study', 'participate'})"
+0.09090909090909091,"frozenset({'sociology', 'violence', 'study'})"

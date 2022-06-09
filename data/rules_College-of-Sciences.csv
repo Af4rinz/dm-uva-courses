@@ -1,0 +1,15 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+frozenset({'registration'}),frozenset({'vrije'}),0.078125,0.0625,0.0625,0.8,12.8,0.0576171875,4.687500000000001
+frozenset({'vrije'}),frozenset({'registration'}),0.0625,0.078125,0.0625,1.0,12.8,0.0576171875,inf
+frozenset({'vunet'}),frozenset({'registration'}),0.078125,0.078125,0.0625,0.8,10.24,0.056396484375,4.609375000000001
+frozenset({'registration'}),frozenset({'vunet'}),0.078125,0.078125,0.0625,0.8,10.24,0.056396484375,4.609375000000001
+frozenset({'universiteit'}),frozenset({'vunet'}),0.0625,0.078125,0.0625,1.0,12.8,0.0576171875,inf
+frozenset({'vunet'}),frozenset({'universiteit'}),0.078125,0.0625,0.0625,0.8,12.8,0.0576171875,4.687500000000001
+frozenset({'vunet'}),frozenset({'vrije'}),0.078125,0.0625,0.0625,0.8,12.8,0.0576171875,4.687500000000001
+frozenset({'vrije'}),frozenset({'vunet'}),0.0625,0.078125,0.0625,1.0,12.8,0.0576171875,inf
+"frozenset({'vunet', 'registration'})",frozenset({'vrije'}),0.0625,0.0625,0.0625,1.0,16.0,0.05859375,inf
+"frozenset({'vunet', 'vrije'})",frozenset({'registration'}),0.0625,0.078125,0.0625,1.0,12.8,0.0576171875,inf
+"frozenset({'registration', 'vrije'})",frozenset({'vunet'}),0.0625,0.078125,0.0625,1.0,12.8,0.0576171875,inf
+frozenset({'vunet'}),"frozenset({'registration', 'vrije'})",0.078125,0.0625,0.0625,0.8,12.8,0.0576171875,4.687500000000001
+frozenset({'registration'}),"frozenset({'vunet', 'vrije'})",0.078125,0.0625,0.0625,0.8,12.8,0.0576171875,4.687500000000001
+frozenset({'vrije'}),"frozenset({'vunet', 'registration'})",0.0625,0.0625,0.0625,1.0,16.0,0.05859375,inf

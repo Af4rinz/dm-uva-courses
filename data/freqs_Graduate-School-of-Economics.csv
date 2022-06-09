@@ -1,0 +1,57 @@
+support,itemsets
+0.07058823529411765,frozenset({'academic'})
+0.10588235294117647,frozenset({'econometrics'})
+0.12941176470588237,frozenset({'economic'})
+0.21176470588235294,frozenset({'economics'})
+0.10588235294117647,frozenset({'empirical'})
+0.16470588235294117,frozenset({'lecture'})
+0.07058823529411765,frozenset({'macroeconomics'})
+0.10588235294117647,frozenset({'methodology'})
+0.11764705882352941,frozenset({'msc'})
+0.08235294117647059,frozenset({'overview'})
+0.10588235294117647,frozenset({'research'})
+0.18823529411764706,frozenset({'seminar'})
+0.21176470588235294,frozenset({'student'})
+0.11764705882352941,frozenset({'study'})
+0.07058823529411765,frozenset({'teaching'})
+0.058823529411764705,frozenset({'textbook'})
+0.29411764705882354,frozenset({'thesis'})
+0.08235294117647059,frozenset({'topic'})
+0.10588235294117647,frozenset({'tutorial'})
+0.058823529411764705,"frozenset({'academic', 'thesis'})"
+0.058823529411764705,"frozenset({'econometrics', 'economics'})"
+0.10588235294117647,"frozenset({'economics', 'economic'})"
+0.058823529411764705,"frozenset({'overview', 'empirical'})"
+0.08235294117647059,"frozenset({'research', 'empirical'})"
+0.08235294117647059,"frozenset({'seminar', 'empirical'})"
+0.08235294117647059,"frozenset({'thesis', 'empirical'})"
+0.07058823529411765,"frozenset({'lecture', 'student'})"
+0.08235294117647059,"frozenset({'methodology', 'thesis'})"
+0.09411764705882353,"frozenset({'student', 'msc'})"
+0.10588235294117647,"frozenset({'thesis', 'msc'})"
+0.07058823529411765,"frozenset({'research', 'overview'})"
+0.07058823529411765,"frozenset({'overview', 'seminar'})"
+0.07058823529411765,"frozenset({'overview', 'thesis'})"
+0.09411764705882353,"frozenset({'research', 'seminar'})"
+0.10588235294117647,"frozenset({'research', 'thesis'})"
+0.08235294117647059,"frozenset({'seminar', 'student'})"
+0.16470588235294117,"frozenset({'seminar', 'thesis'})"
+0.15294117647058825,"frozenset({'student', 'thesis'})"
+0.058823529411764705,"frozenset({'research', 'overview', 'empirical'})"
+0.058823529411764705,"frozenset({'overview', 'seminar', 'empirical'})"
+0.058823529411764705,"frozenset({'overview', 'thesis', 'empirical'})"
+0.08235294117647059,"frozenset({'research', 'seminar', 'empirical'})"
+0.08235294117647059,"frozenset({'research', 'thesis', 'empirical'})"
+0.08235294117647059,"frozenset({'seminar', 'thesis', 'empirical'})"
+0.09411764705882353,"frozenset({'student', 'thesis', 'msc'})"
+0.07058823529411765,"frozenset({'research', 'overview', 'seminar'})"
+0.07058823529411765,"frozenset({'research', 'overview', 'thesis'})"
+0.07058823529411765,"frozenset({'overview', 'seminar', 'thesis'})"
+0.09411764705882353,"frozenset({'research', 'seminar', 'thesis'})"
+0.058823529411764705,"frozenset({'seminar', 'thesis', 'student'})"
+0.058823529411764705,"frozenset({'research', 'overview', 'seminar', 'empirical'})"
+0.058823529411764705,"frozenset({'research', 'overview', 'thesis', 'empirical'})"
+0.058823529411764705,"frozenset({'overview', 'seminar', 'thesis', 'empirical'})"
+0.08235294117647059,"frozenset({'research', 'seminar', 'thesis', 'empirical'})"
+0.07058823529411765,"frozenset({'research', 'overview', 'seminar', 'thesis'})"
+0.058823529411764705,"frozenset({'seminar', 'empirical', 'research', 'thesis', 'overview'})"

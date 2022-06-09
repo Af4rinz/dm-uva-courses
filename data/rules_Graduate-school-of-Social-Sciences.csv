@@ -1,0 +1,2 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+frozenset({'methodology'}),frozenset({'study'}),0.08837209302325581,0.4697674418604651,0.06511627906976744,0.7368421052631579,1.5685252735799895,0.023601946998377504,2.014883720930232

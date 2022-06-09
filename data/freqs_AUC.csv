@@ -1,0 +1,7 @@
+support,itemsets
+0.05970149253731343,frozenset({'interdisciplinary'})
+0.055970149253731345,frozenset({'language'})
+0.19776119402985073,frozenset({'student'})
+0.2798507462686567,frozenset({'study'})
+0.05223880597014925,frozenset({'topic'})
+0.08582089552238806,"frozenset({'student', 'study'})"

@@ -1,0 +1,64 @@
+support,itemsets
+0.08064516129032258,frozenset({'academic'})
+0.08064516129032258,frozenset({'audience'})
+0.08064516129032258,frozenset({'develop'})
+0.06451612903225806,frozenset({'internship'})
+0.06451612903225806,frozenset({'journalism'})
+0.14516129032258066,frozenset({'lecture'})
+0.08064516129032258,frozenset({'marketing'})
+0.14516129032258066,frozenset({'methodology'})
+0.06451612903225806,frozenset({'organization'})
+0.08064516129032258,frozenset({'participate'})
+0.08064516129032258,frozenset({'practice'})
+0.08064516129032258,frozenset({'preparation'})
+0.06451612903225806,frozenset({'programming'})
+0.16129032258064516,frozenset({'research'})
+0.08064516129032258,frozenset({'researcher'})
+0.11290322580645161,frozenset({'semester'})
+0.3225806451612903,frozenset({'seminar'})
+0.14516129032258066,frozenset({'student'})
+0.0967741935483871,frozenset({'studied'})
+0.24193548387096775,frozenset({'study'})
+0.08064516129032258,frozenset({'supervise'})
+0.0967741935483871,frozenset({'supervision'})
+0.24193548387096775,frozenset({'thesis'})
+0.08064516129032258,"frozenset({'lecture', 'study'})"
+0.08064516129032258,"frozenset({'methodology', 'preparation'})"
+0.08064516129032258,"frozenset({'methodology', 'semester'})"
+0.11290322580645161,"frozenset({'methodology', 'seminar'})"
+0.11290322580645161,"frozenset({'methodology', 'thesis'})"
+0.08064516129032258,"frozenset({'preparation', 'semester'})"
+0.08064516129032258,"frozenset({'preparation', 'seminar'})"
+0.08064516129032258,"frozenset({'preparation', 'thesis'})"
+0.06451612903225806,"frozenset({'research', 'researcher'})"
+0.08064516129032258,"frozenset({'seminar', 'semester'})"
+0.08064516129032258,"frozenset({'thesis', 'semester'})"
+0.08064516129032258,"frozenset({'seminar', 'study'})"
+0.0967741935483871,"frozenset({'seminar', 'thesis'})"
+0.08064516129032258,"frozenset({'supervise', 'studied'})"
+0.0967741935483871,"frozenset({'supervision', 'studied'})"
+0.0967741935483871,"frozenset({'thesis', 'studied'})"
+0.08064516129032258,"frozenset({'supervise', 'supervision'})"
+0.08064516129032258,"frozenset({'thesis', 'supervise'})"
+0.0967741935483871,"frozenset({'thesis', 'supervision'})"
+0.08064516129032258,"frozenset({'methodology', 'preparation', 'semester'})"
+0.08064516129032258,"frozenset({'methodology', 'seminar', 'preparation'})"
+0.08064516129032258,"frozenset({'methodology', 'thesis', 'preparation'})"
+0.08064516129032258,"frozenset({'methodology', 'seminar', 'semester'})"
+0.08064516129032258,"frozenset({'methodology', 'thesis', 'semester'})"
+0.0967741935483871,"frozenset({'methodology', 'seminar', 'thesis'})"
+0.08064516129032258,"frozenset({'preparation', 'seminar', 'semester'})"
+0.08064516129032258,"frozenset({'preparation', 'thesis', 'semester'})"
+0.08064516129032258,"frozenset({'preparation', 'seminar', 'thesis'})"
+0.08064516129032258,"frozenset({'seminar', 'thesis', 'semester'})"
+0.08064516129032258,"frozenset({'supervision', 'supervise', 'studied'})"
+0.08064516129032258,"frozenset({'thesis', 'supervise', 'studied'})"
+0.0967741935483871,"frozenset({'supervision', 'thesis', 'studied'})"
+0.08064516129032258,"frozenset({'thesis', 'supervise', 'supervision'})"
+0.08064516129032258,"frozenset({'methodology', 'preparation', 'seminar', 'semester'})"
+0.08064516129032258,"frozenset({'methodology', 'preparation', 'thesis', 'semester'})"
+0.08064516129032258,"frozenset({'methodology', 'seminar', 'thesis', 'preparation'})"
+0.08064516129032258,"frozenset({'methodology', 'seminar', 'thesis', 'semester'})"
+0.08064516129032258,"frozenset({'preparation', 'seminar', 'thesis', 'semester'})"
+0.08064516129032258,"frozenset({'supervision', 'thesis', 'supervise', 'studied'})"
+0.08064516129032258,"frozenset({'seminar', 'methodology', 'semester', 'thesis', 'preparation'})"

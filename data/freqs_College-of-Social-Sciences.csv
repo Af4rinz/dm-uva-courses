@@ -1,0 +1,18 @@
+support,itemsets
+0.0821256038647343,frozenset({'anthropological'})
+0.08695652173913043,frozenset({'anthropology'})
+0.11594202898550725,frozenset({'lecture'})
+0.05314009661835749,frozenset({'participation'})
+0.12077294685990338,frozenset({'political'})
+0.05314009661835749,frozenset({'practice'})
+0.06280193236714976,frozenset({'qualitative'})
+0.1111111111111111,frozenset({'seminar'})
+0.10628019323671498,frozenset({'sociological'})
+0.10144927536231885,frozenset({'sociology'})
+0.10628019323671498,frozenset({'student'})
+0.3140096618357488,frozenset({'study'})
+0.06763285024154589,frozenset({'teaching'})
+0.05314009661835749,"frozenset({'anthropology', 'anthropological'})"
+0.06280193236714976,"frozenset({'lecture', 'study'})"
+0.06763285024154589,"frozenset({'sociology', 'sociological'})"
+0.05314009661835749,"frozenset({'student', 'study'})"

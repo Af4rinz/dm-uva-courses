@@ -1,0 +1,31 @@
+support,itemsets
+0.06956521739130435,frozenset({'accounting'})
+0.05217391304347826,frozenset({'consumer'})
+0.1565217391304348,frozenset({'finance'})
+0.08695652173913043,frozenset({'financial'})
+0.0782608695652174,frozenset({'leadership'})
+0.08695652173913043,frozenset({'lecture'})
+0.06956521739130435,frozenset({'manage'})
+0.33043478260869563,frozenset({'management'})
+0.06956521739130435,frozenset({'managerial'})
+0.08695652173913043,frozenset({'managing'})
+0.06956521739130435,frozenset({'marketing'})
+0.05217391304347826,frozenset({'mba'})
+0.05217391304347826,frozenset({'methodology'})
+0.08695652173913043,frozenset({'organisation'})
+0.0782608695652174,frozenset({'organisational'})
+0.08695652173913043,frozenset({'organizational'})
+0.11304347826086956,frozenset({'strategic'})
+0.1565217391304348,frozenset({'study'})
+0.05217391304347826,frozenset({'teaching'})
+0.0782608695652174,frozenset({'thesis'})
+0.06086956521739131,frozenset({'topic'})
+0.05217391304347826,"frozenset({'marketing', 'consumer'})"
+0.06086956521739131,"frozenset({'financial', 'finance'})"
+0.05217391304347826,"frozenset({'leadership', 'management'})"
+0.05217391304347826,"frozenset({'managing', 'manage'})"
+0.05217391304347826,"frozenset({'managerial', 'management'})"
+0.06086956521739131,"frozenset({'managing', 'management'})"
+0.06086956521739131,"frozenset({'organisation', 'management'})"
+0.05217391304347826,"frozenset({'organisational', 'management'})"
+0.0782608695652174,"frozenset({'strategic', 'management'})"

@@ -1,0 +1,20 @@
+support,itemsets
+0.06046511627906977,frozenset({'ethnographic'})
+0.05581395348837209,frozenset({'exam'})
+0.08372093023255814,frozenset({'fieldwork'})
+0.06046511627906977,frozenset({'methodological'})
+0.08837209302325581,frozenset({'methodology'})
+0.05116279069767442,frozenset({'practice'})
+0.06046511627906977,frozenset({'qualitative'})
+0.12093023255813953,frozenset({'research'})
+0.11162790697674418,frozenset({'seminar'})
+0.06511627906976744,frozenset({'sociology'})
+0.20465116279069767,frozenset({'student'})
+0.4697674418604651,frozenset({'study'})
+0.06511627906976744,frozenset({'teaching'})
+0.11627906976744186,frozenset({'thesis'})
+0.06511627906976744,"frozenset({'methodology', 'study'})"
+0.07441860465116279,"frozenset({'research', 'study'})"
+0.07441860465116279,"frozenset({'seminar', 'study'})"
+0.11162790697674418,"frozenset({'student', 'study'})"
+0.07906976744186046,"frozenset({'thesis', 'study'})"

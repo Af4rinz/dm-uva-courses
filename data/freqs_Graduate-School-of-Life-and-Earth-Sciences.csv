@@ -1,0 +1,53 @@
+support,itemsets
+0.24347826086956523,frozenset({'amsterdam'})
+0.05217391304347826,frozenset({'bioinformatics'})
+0.06086956521739131,frozenset({'biology'})
+0.10434782608695652,frozenset({'biomedical'})
+0.06086956521739131,frozenset({'ecological'})
+0.08695652173913043,frozenset({'ecology'})
+0.09565217391304348,frozenset({'ecosystem'})
+0.06956521739130435,frozenset({'neurobiology'})
+0.0782608695652174,frozenset({'neuroscience'})
+0.2608695652173913,frozenset({'registration'})
+0.08695652173913043,frozenset({'research'})
+0.09565217391304348,frozenset({'seminar'})
+0.12173913043478261,frozenset({'student'})
+0.16521739130434782,frozenset({'study'})
+0.06086956521739131,frozenset({'syllabus'})
+0.09565217391304348,frozenset({'teaching'})
+0.0782608695652174,frozenset({'thesis'})
+0.2608695652173913,frozenset({'universiteit'})
+0.25217391304347825,frozenset({'vrije'})
+0.25217391304347825,frozenset({'vunet'})
+0.24347826086956523,"frozenset({'registration', 'amsterdam'})"
+0.24347826086956523,"frozenset({'universiteit', 'amsterdam'})"
+0.24347826086956523,"frozenset({'amsterdam', 'vrije'})"
+0.24347826086956523,"frozenset({'vunet', 'amsterdam'})"
+0.05217391304347826,"frozenset({'ecology', 'ecological'})"
+0.06086956521739131,"frozenset({'ecosystem', 'ecology'})"
+0.06086956521739131,"frozenset({'neuroscience', 'neurobiology'})"
+0.25217391304347825,"frozenset({'universiteit', 'registration'})"
+0.25217391304347825,"frozenset({'registration', 'vrije'})"
+0.25217391304347825,"frozenset({'vunet', 'registration'})"
+0.06086956521739131,"frozenset({'research', 'thesis'})"
+0.08695652173913043,"frozenset({'student', 'teaching'})"
+0.05217391304347826,"frozenset({'student', 'thesis'})"
+0.25217391304347825,"frozenset({'universiteit', 'vrije'})"
+0.25217391304347825,"frozenset({'universiteit', 'vunet'})"
+0.25217391304347825,"frozenset({'vunet', 'vrije'})"
+0.24347826086956523,"frozenset({'universiteit', 'registration', 'amsterdam'})"
+0.24347826086956523,"frozenset({'registration', 'amsterdam', 'vrije'})"
+0.24347826086956523,"frozenset({'registration', 'vunet', 'amsterdam'})"
+0.24347826086956523,"frozenset({'universiteit', 'amsterdam', 'vrije'})"
+0.24347826086956523,"frozenset({'universiteit', 'vunet', 'amsterdam'})"
+0.24347826086956523,"frozenset({'vunet', 'amsterdam', 'vrije'})"
+0.25217391304347825,"frozenset({'universiteit', 'registration', 'vrije'})"
+0.25217391304347825,"frozenset({'universiteit', 'vunet', 'registration'})"
+0.25217391304347825,"frozenset({'vunet', 'registration', 'vrije'})"
+0.25217391304347825,"frozenset({'universiteit', 'vunet', 'vrije'})"
+0.24347826086956523,"frozenset({'universiteit', 'registration', 'amsterdam', 'vrije'})"
+0.24347826086956523,"frozenset({'universiteit', 'registration', 'vunet', 'amsterdam'})"
+0.24347826086956523,"frozenset({'registration', 'vunet', 'amsterdam', 'vrije'})"
+0.24347826086956523,"frozenset({'universiteit', 'vunet', 'amsterdam', 'vrije'})"
+0.25217391304347825,"frozenset({'universiteit', 'vunet', 'registration', 'vrije'})"
+0.24347826086956523,"frozenset({'registration', 'universiteit', 'vunet', 'amsterdam', 'vrije'})"

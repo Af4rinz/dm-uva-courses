@@ -1,0 +1,30 @@
+support,itemsets
+0.07142857142857142,frozenset({'academic'})
+0.07792207792207792,frozenset({'accounting'})
+0.09090909090909091,frozenset({'analyse'})
+0.05844155844155844,frozenset({'econometrics'})
+0.08441558441558442,frozenset({'economic'})
+0.11038961038961038,frozenset({'economics'})
+0.05844155844155844,frozenset({'entrepreneurship'})
+0.07142857142857142,frozenset({'finance'})
+0.16233766233766234,frozenset({'lecture'})
+0.05844155844155844,frozenset({'macroeconomics'})
+0.16233766233766234,frozenset({'management'})
+0.09740259740259741,frozenset({'organisation'})
+0.05844155844155844,frozenset({'organisational'})
+0.05194805194805195,frozenset({'portfolio'})
+0.08441558441558442,frozenset({'programming'})
+0.08441558441558442,frozenset({'research'})
+0.13636363636363635,frozenset({'seminar'})
+0.09740259740259741,frozenset({'strategic'})
+0.14285714285714285,frozenset({'student'})
+0.24025974025974026,frozenset({'study'})
+0.06493506493506493,frozenset({'thesis'})
+0.06493506493506493,"frozenset({'economics', 'economic'})"
+0.07142857142857142,"frozenset({'lecture', 'seminar'})"
+0.07142857142857142,"frozenset({'lecture', 'study'})"
+0.05194805194805195,"frozenset({'organisation', 'management'})"
+0.05194805194805195,"frozenset({'strategic', 'management'})"
+0.05194805194805195,"frozenset({'organisational', 'organisation'})"
+0.06493506493506493,"frozenset({'seminar', 'study'})"
+0.05844155844155844,"frozenset({'student', 'study'})"

@@ -1,0 +1,16 @@
+support,itemsets
+0.05569007263922518,frozenset({'archaeology'})
+0.06295399515738499,frozenset({'cultural'})
+0.053268765133171914,frozenset({'culture'})
+0.10653753026634383,frozenset({'lecture'})
+0.07506053268765134,frozenset({'linguistics'})
+0.07021791767554479,frozenset({'literature'})
+0.06779661016949153,frozenset({'practice'})
+0.1089588377723971,frozenset({'seminar'})
+0.15738498789346247,frozenset({'student'})
+0.3559322033898305,frozenset({'study'})
+0.1089588377723971,frozenset({'teaching'})
+0.053268765133171914,"frozenset({'lecture', 'study'})"
+0.06295399515738499,"frozenset({'seminar', 'study'})"
+0.09200968523002422,"frozenset({'student', 'study'})"
+0.05569007263922518,"frozenset({'student', 'teaching'})"

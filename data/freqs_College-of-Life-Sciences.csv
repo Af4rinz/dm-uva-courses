@@ -1,0 +1,48 @@
+support,itemsets
+0.11538461538461539,frozenset({'animal'})
+0.07692307692307693,frozenset({'biodiversity'})
+0.07692307692307693,frozenset({'bioinformatics'})
+0.11538461538461539,frozenset({'biology'})
+0.11538461538461539,frozenset({'biomedical'})
+0.07692307692307693,frozenset({'biomedicine'})
+0.07692307692307693,frozenset({'cognition'})
+0.11538461538461539,frozenset({'ecological'})
+0.15384615384615385,frozenset({'ecology'})
+0.07692307692307693,frozenset({'ecosystem'})
+0.07692307692307693,frozenset({'evolution'})
+0.07692307692307693,frozenset({'evolutionary'})
+0.07692307692307693,frozenset({'freshwater'})
+0.11538461538461539,frozenset({'genomics'})
+0.07692307692307693,frozenset({'methodological'})
+0.07692307692307693,frozenset({'multicellular'})
+0.07692307692307693,frozenset({'neurobiological'})
+0.11538461538461539,frozenset({'neurobiology'})
+0.07692307692307693,frozenset({'neuronal'})
+0.11538461538461539,frozenset({'neuroscience'})
+0.07692307692307693,frozenset({'neurosystems'})
+0.2692307692307692,frozenset({'study'})
+0.07692307692307693,"frozenset({'evolution', 'animal'})"
+0.07692307692307693,"frozenset({'evolutionary', 'animal'})"
+0.07692307692307693,"frozenset({'animal', 'study'})"
+0.07692307692307693,"frozenset({'biodiversity', 'ecology'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'biomedical'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'biomedicine'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'genomics'})"
+0.07692307692307693,"frozenset({'biology', 'multicellular'})"
+0.07692307692307693,"frozenset({'biomedicine', 'biomedical'})"
+0.07692307692307693,"frozenset({'biomedical', 'genomics'})"
+0.07692307692307693,"frozenset({'biomedicine', 'genomics'})"
+0.11538461538461539,"frozenset({'ecology', 'ecological'})"
+0.07692307692307693,"frozenset({'ecosystem', 'ecology'})"
+0.07692307692307693,"frozenset({'evolutionary', 'evolution'})"
+0.07692307692307693,"frozenset({'neurobiological', 'neurobiology'})"
+0.07692307692307693,"frozenset({'neuroscience', 'neurobiological'})"
+0.07692307692307693,"frozenset({'neuroscience', 'neurobiology'})"
+0.07692307692307693,"frozenset({'neurosystems', 'neurobiology'})"
+0.07692307692307693,"frozenset({'evolutionary', 'evolution', 'animal'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'biomedicine', 'biomedical'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'biomedical', 'genomics'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'biomedicine', 'genomics'})"
+0.07692307692307693,"frozenset({'biomedicine', 'biomedical', 'genomics'})"
+0.07692307692307693,"frozenset({'neuroscience', 'neurobiology', 'neurobiological'})"
+0.07692307692307693,"frozenset({'bioinformatics', 'biomedicine', 'biomedical', 'genomics'})"

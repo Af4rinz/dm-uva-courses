@@ -1,0 +1,48 @@
+support,itemsets
+0.12100456621004566,frozenset({'academic'})
+0.0593607305936073,frozenset({'lecture'})
+0.1324200913242009,frozenset({'lecturer'})
+0.0502283105022831,frozenset({'philosophy'})
+0.09817351598173515,frozenset({'research'})
+0.19863013698630136,frozenset({'seminar'})
+0.0593607305936073,frozenset({'specialisation'})
+0.2511415525114155,frozenset({'student'})
+0.4200913242009132,frozenset({'study'})
+0.06164383561643835,frozenset({'supervision'})
+0.0958904109589041,frozenset({'teaching'})
+0.1187214611872146,frozenset({'thesis'})
+0.10730593607305935,frozenset({'tutor'})
+0.0776255707762557,frozenset({'tutoring'})
+0.0639269406392694,"frozenset({'academic', 'student'})"
+0.0684931506849315,"frozenset({'academic', 'study'})"
+0.0502283105022831,"frozenset({'academic', 'thesis'})"
+0.0867579908675799,"frozenset({'student', 'lecturer'})"
+0.0958904109589041,"frozenset({'study', 'lecturer'})"
+0.07990867579908675,"frozenset({'tutor', 'lecturer'})"
+0.0776255707762557,"frozenset({'tutoring', 'lecturer'})"
+0.0547945205479452,"frozenset({'student', 'seminar'})"
+0.10730593607305935,"frozenset({'seminar', 'study'})"
+0.16666666666666666,"frozenset({'student', 'study'})"
+0.0547945205479452,"frozenset({'student', 'thesis'})"
+0.09817351598173515,"frozenset({'tutor', 'student'})"
+0.0730593607305936,"frozenset({'tutoring', 'student'})"
+0.0547945205479452,"frozenset({'thesis', 'study'})"
+0.09360730593607305,"frozenset({'tutor', 'study'})"
+0.07534246575342465,"frozenset({'tutoring', 'study'})"
+0.07534246575342465,"frozenset({'tutor', 'tutoring'})"
+0.07990867579908675,"frozenset({'student', 'study', 'lecturer'})"
+0.0776255707762557,"frozenset({'tutor', 'student', 'lecturer'})"
+0.0730593607305936,"frozenset({'tutoring', 'student', 'lecturer'})"
+0.07534246575342465,"frozenset({'tutor', 'study', 'lecturer'})"
+0.07534246575342465,"frozenset({'tutoring', 'study', 'lecturer'})"
+0.07534246575342465,"frozenset({'tutor', 'tutoring', 'lecturer'})"
+0.08904109589041095,"frozenset({'tutor', 'student', 'study'})"
+0.0730593607305936,"frozenset({'tutoring', 'student', 'study'})"
+0.0730593607305936,"frozenset({'tutor', 'tutoring', 'student'})"
+0.07534246575342465,"frozenset({'tutor', 'tutoring', 'study'})"
+0.0730593607305936,"frozenset({'tutor', 'student', 'study', 'lecturer'})"
+0.0730593607305936,"frozenset({'tutoring', 'student', 'study', 'lecturer'})"
+0.0730593607305936,"frozenset({'tutor', 'tutoring', 'student', 'lecturer'})"
+0.07534246575342465,"frozenset({'tutor', 'tutoring', 'study', 'lecturer'})"
+0.0730593607305936,"frozenset({'tutor', 'tutoring', 'student', 'study'})"
+0.0730593607305936,"frozenset({'tutor', 'tutoring', 'study', 'lecturer', 'student'})"

@@ -1,0 +1,31 @@
+support,itemsets
+0.0847457627118644,frozenset({'analyse'})
+0.13559322033898305,frozenset({'concept'})
+0.0847457627118644,frozenset({'economic'})
+0.05084745762711865,frozenset({'economics'})
+0.06779661016949153,frozenset({'governance'})
+0.13559322033898305,frozenset({'law'})
+0.1864406779661017,frozenset({'lecture'})
+0.05084745762711865,frozenset({'management'})
+0.05084745762711865,frozenset({'methodological'})
+0.05084745762711865,frozenset({'methodology'})
+0.05084745762711865,frozenset({'political'})
+0.05084745762711865,frozenset({'psychological'})
+0.13559322033898305,frozenset({'psychology'})
+0.05084745762711865,frozenset({'qualitative'})
+0.06779661016949153,frozenset({'research'})
+0.05084745762711865,frozenset({'seminar'})
+0.05084745762711865,frozenset({'statistical'})
+0.15254237288135594,frozenset({'student'})
+0.2033898305084746,frozenset({'study'})
+0.05084745762711865,frozenset({'teaching'})
+0.0847457627118644,frozenset({'topic'})
+0.06779661016949153,"frozenset({'concept', 'lecture'})"
+0.05084745762711865,"frozenset({'economics', 'economic'})"
+0.05084745762711865,"frozenset({'lecture', 'student'})"
+0.0847457627118644,"frozenset({'lecture', 'study'})"
+0.05084745762711865,"frozenset({'methodology', 'methodological'})"
+0.05084745762711865,"frozenset({'psychological', 'psychology'})"
+0.05084745762711865,"frozenset({'topic', 'psychology'})"
+0.0847457627118644,"frozenset({'student', 'study'})"
+0.05084745762711865,"frozenset({'lecture', 'student', 'study'})"
