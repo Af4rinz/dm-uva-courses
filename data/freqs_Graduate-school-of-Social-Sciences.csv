@@ -14,7 +14,7 @@ support,itemsets
 0.06511627906976744,frozenset({'teaching'})
 0.11627906976744186,frozenset({'thesis'})
 0.06511627906976744,"frozenset({'methodology', 'study'})"
-0.07441860465116279,"frozenset({'research', 'study'})"
+0.07441860465116279,"frozenset({'study', 'research'})"
 0.07441860465116279,"frozenset({'seminar', 'study'})"
 0.11162790697674418,"frozenset({'student', 'study'})"
 0.07906976744186046,"frozenset({'thesis', 'study'})"

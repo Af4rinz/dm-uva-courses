@@ -12,7 +12,7 @@ support,itemsets
 0.10628019323671498,frozenset({'student'})
 0.3140096618357488,frozenset({'study'})
 0.06763285024154589,frozenset({'teaching'})
-0.05314009661835749,"frozenset({'anthropology', 'anthropological'})"
-0.06280193236714976,"frozenset({'lecture', 'study'})"
+0.05314009661835749,"frozenset({'anthropological', 'anthropology'})"
+0.06280193236714976,"frozenset({'study', 'lecture'})"
 0.06763285024154589,"frozenset({'sociology', 'sociological'})"
 0.05314009661835749,"frozenset({'student', 'study'})"

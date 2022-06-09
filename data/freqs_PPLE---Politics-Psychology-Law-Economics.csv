@@ -21,10 +21,10 @@ support,itemsets
 0.05084745762711865,frozenset({'teaching'})
 0.0847457627118644,frozenset({'topic'})
 0.06779661016949153,"frozenset({'concept', 'lecture'})"
-0.05084745762711865,"frozenset({'economics', 'economic'})"
-0.05084745762711865,"frozenset({'lecture', 'student'})"
+0.05084745762711865,"frozenset({'economic', 'economics'})"
+0.05084745762711865,"frozenset({'student', 'lecture'})"
 0.0847457627118644,"frozenset({'lecture', 'study'})"
-0.05084745762711865,"frozenset({'methodology', 'methodological'})"
+0.05084745762711865,"frozenset({'methodological', 'methodology'})"
 0.05084745762711865,"frozenset({'psychological', 'psychology'})"
 0.05084745762711865,"frozenset({'topic', 'psychology'})"
 0.0847457627118644,"frozenset({'student', 'study'})"

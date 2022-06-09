@@ -14,8 +14,8 @@ support,itemsets
 0.0625,frozenset({'vrije'})
 0.078125,frozenset({'vunet'})
 0.0625,"frozenset({'registration', 'vrije'})"
-0.0625,"frozenset({'vunet', 'registration'})"
-0.0625,"frozenset({'student', 'teaching'})"
+0.0625,"frozenset({'registration', 'vunet'})"
+0.0625,"frozenset({'teaching', 'student'})"
 0.0625,"frozenset({'universiteit', 'vunet'})"
-0.0625,"frozenset({'vunet', 'vrije'})"
-0.0625,"frozenset({'vunet', 'registration', 'vrije'})"
+0.0625,"frozenset({'vrije', 'vunet'})"
+0.0625,"frozenset({'registration', 'vrije', 'vunet'})"
