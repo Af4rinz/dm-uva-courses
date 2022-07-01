@@ -1,2 +1,2 @@
 # dm-uva-courses
-Data Mining course project on UvA website
+Data Mining course project on UvA course overviews
