@@ -1,5 +1,7 @@
 *.zip
 *.rar
+*.html
+phase1_files/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
