@@ -1,0 +1,10 @@
+Method,Accuracy,F1 Score,Comment
+Decision Tree (titles),0.39009287925696595,0.38189010726675326,"max_depth = None, min_samples_split = 2, min_samples_leaf = 1"
+Decision Tree (texts),0.7027863777089783,0.7003304644820952,"max_depth = None, min_samples_split = 2, min_samples_leaf = 1"
+AdaBoost (titles),0.14241486068111456,0.05239157079820768,"estimators = 50, learning_rate = 1.0"
+AdaBoost (titles),0.17492260061919504,0.09877061159463804,"estimators = 50, learning_rate = 0.5"
+AdaBoost (titles),0.18111455108359134,0.11510274365064063,"estimators = 50, learning_rate = 0.1"
+AdaBoost (texts),0.3715170278637771,0.3300614355631898,"estimators = 50, learning_rate = 0.1"
+AdaBoost (texts),0.37770897832817335,0.3230916708156074,"estimators = 50, learning_rate = 0.5"
+Random Forest (titles),0.4551083591331269,0.4455428495445108," "
+Random Forest (texts),0.7755417956656346,0.7685346308669491," "
